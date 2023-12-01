@@ -57,5 +57,5 @@ jobs:
         with:
           app-name: 'angular-todo'
           slot-name: 'Production'
-          package: .
+          package: ./dist/angular-todo/browser
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E7E10D135F4C4FCFA1F7C6CD4E9E06A9 }}
